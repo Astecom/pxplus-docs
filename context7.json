@@ -1,0 +1,24 @@
+{
+  "projectTitle": "PxPlus Language Documentation",
+  "description": "Comprehensive documentation for PxPlus (ProvideX) business programming language",
+  "folders": ["docs"],
+  "excludeFolders": [],
+  "excludeFiles": [],
+  "rules": [
+    "String variables MUST end with $ suffix (e.g., name$, data$)",
+    "FOR-NEXT loops ALWAYS execute at least once - guard with IF when count might be zero",
+    "NO RETURN statements allowed inside FOR loops - use flag and BREAK instead",
+    "Save LFO immediately after OPEN: OPEN (UNT) file; chan=LFO",
+    "Object references become invalid after DELETE - always create new objects, never reuse",
+    "DELETE OBJECT must be called explicitly - objects don't auto-cleanup unless FOR PROGRAM",
+    "Inside classes, access properties directly without THIS prefix",
+    "Function labels are REQUIRED after parentheses: FUNCTION method()LABEL_NAME",
+    "Use curly braces for multi-line blocks: IF condition THEN { ... }",
+    "Comments use ! not rem",
+    "Error handling: use GOTO not RESUME in error handlers",
+    "Pass arrays with {ALL}: CALL prog, array{ALL}",
+    "Use DTE function for date/time operations",
+    "Never include line numbers in code output",
+    "Keywords conventionally use UPPERCASE"
+  ]
+}
