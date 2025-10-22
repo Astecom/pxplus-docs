@@ -224,14 +224,6 @@ Improvements welcome! To contribute:
 
 Please fork the repository and submit pull requests with clear descriptions.
 
-## Repository Information
-
-**GitHub**: [github.com/Astecom/claude-pxplus-template](https://github.com/Astecom/claude-pxplus-template)
-**Maintained by**: Astecom
-**Format**: Markdown
-**Files**: 2,428 documentation files
-**Size**: ~28 MB
-
 ## License
 
 Documentation content is copyright PVX Plus Technologies Ltd. See PVX Plus Technologies for official licensing terms.
